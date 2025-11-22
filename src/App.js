@@ -75,7 +75,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Soccer Player CRUD (React Single Page)</h1>
+      <h1>Soccer Player CRUD</h1>
 
       <form className="form" onSubmit={handleSubmit}>
         <input name="name" placeholder="name" value={form.name} onChange={handleChange} required />
